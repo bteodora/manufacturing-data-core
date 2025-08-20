@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A9B5724C-9A9B-FE9F-1893-CB91119F979F" containerWithKeyObject="28315524-A250-F701-4337-71EFDF329212" localFKIndex="2E79D7B3-0A7A-FFBD-3B49-2D4580FA7B6F" name="koristi_kotur_fk">
+<sourceDDLFile>sema.ddl</sourceDDLFile>
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:02 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<importedID>BA3B34D6-A4C7-1D5F-0FC1-D9A6A2E8C181</importedID>
+<referredTableLongName>kotur</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>602C5F88-435D-CFF9-DB82-A7E8738B9FAE</referredTableID>
+<keyObject>A68271B6-E14B-9E6E-6AE0-BDB8BC399544</keyObject>
+<referredKeyID>A68271B6-E14B-9E6E-6AE0-BDB8BC399544</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_k</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ProjekatKT3" id="D1412A07-BF79-98F5-AA12-B19FB977C6BE" version="3.5">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 11:58:25 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>D1412A07-BF79-98F5-AA12-B19FB977C6BE</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="84532B9B-1EC7-5813-343B-B33AD68FCCFE">
+<designStoragePath>C:\sema</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

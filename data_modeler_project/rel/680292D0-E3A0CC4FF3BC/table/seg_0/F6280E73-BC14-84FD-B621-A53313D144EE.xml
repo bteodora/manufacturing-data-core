@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F6280E73-BC14-84FD-B621-A53313D144EE" name="fizicko_lice">
+<sourceDDLFile>sema.ddl</sourceDDLFile>
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:01 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<importedID>6BF758C8-EC9E-07FF-73D9-6DE807D3A564</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_kup" id="6924EC87-E7D5-EDD1-A2B0-502C669336AD">
+<sourceDDLFile>sema.ddl</sourceDDLFile>
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:01 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<importedID>BE15B0B0-4FC4-1C64-2925-0F9B214CC1C1</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E59C0DC1-3E4C-2F3D-96B6-4BBC4B07D531</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A17A0014-298E-AB4D-B095-487E7C299153" referredColumn="BA4BFC42-C20E-0C8D-5774-174BFFDDEDF3"/>
+</associations>
+</Column>
+<Column name="ime" id="BC43DE5C-F8D1-94AD-F2EB-8270B5CA7552">
+<sourceDDLFile>sema.ddl</sourceDDLFile>
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:01 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<importedID>7F083A57-681F-3DF7-D447-EF7917E1E8FB</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>72A71086-74F5-3286-E3A4-3DB878B2C087</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prezime" id="0F916D36-9FBE-1B13-7259-5B804247E9D5">
+<sourceDDLFile>sema.ddl</sourceDDLFile>
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:01 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<importedID>D1F82D4E-9D5B-A7BD-92F0-317B89555464</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>72A71086-74F5-3286-E3A4-3DB878B2C087</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D5E30E21-A7DC-0DE9-B8AB-B504EED2E8A2" name="fizicko_lice_pk">
+<sourceDDLFile>sema.ddl</sourceDDLFile>
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:01 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<importedID>617470F7-BF71-9493-09AF-5F9DE95BBA2D</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6924EC87-E7D5-EDD1-A2B0-502C669336AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3ACF209E-1A35-2A98-8CA2-52B53B7C132C" name="fizicko_lice_kupac_fk">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:02 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6924EC87-E7D5-EDD1-A2B0-502C669336AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

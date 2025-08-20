@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D40618C8-07DE-4A38-0B2A-80D8BEF01C3C" name="nalog_za_izradu">
+<sourceDDLFile>sema.ddl</sourceDDLFile>
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:01 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<importedID>6636B308-D8B7-A16D-40E1-CA3319DC5C2B</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_nal" id="B0C93C68-997D-2A89-F010-ADFF37BEDE82">
+<sourceDDLFile>sema.ddl</sourceDDLFile>
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:01 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<importedID>E121F6BD-9FF1-A4B6-4E34-FEF09E0B00F3</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E59C0DC1-3E4C-2F3D-96B6-4BBC4B07D531</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_kre" id="29B94624-8609-1CB9-BB37-BE86BE4A11C1">
+<sourceDDLFile>sema.ddl</sourceDDLFile>
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:01 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<importedID>9E925E45-FB97-59DE-CB56-1C38AFC0928C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>E4A49774-0997-41D2-308F-ECF65DB8F18E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_zav" id="5077B9A2-F8A3-0626-B8E2-C6E0A75E1480">
+<sourceDDLFile>sema.ddl</sourceDDLFile>
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:01 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<importedID>B02848CC-A465-2C6C-4D60-587CA0A8D846</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>E4A49774-0997-41D2-308F-ECF65DB8F18E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status_nal" id="61899CF7-2736-845D-A0E2-D6BD06D43DDA">
+<sourceDDLFile>sema.ddl</sourceDDLFile>
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:01 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<importedID>AA03EBA2-8AC1-F82A-7015-A45A641F403F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>72A71086-74F5-3286-E3A4-3DB878B2C087</domain>
+<listOfValues>
+<valueDef value="Na_cekanju" description=""/>
+<valueDef value="Obustavljen" description=""/>
+<valueDef value="U_toku_izrade" description=""/>
+<valueDef value="Zavrsen" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FA5D3022-2ED7-8E33-4BE0-ACA60216B4EE" name="nalog_za_izradu_pk">
+<sourceDDLFile>sema.ddl</sourceDDLFile>
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:01 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<importedID>81620011-011B-4536-C20B-B96AD52430A7</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0C93C68-997D-2A89-F010-ADFF37BEDE82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

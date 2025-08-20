@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="354F0088-D64E-5656-1F00-222006B84CB7" containerWithKeyObject="26763007-8403-96A6-0727-856A9019F277" localFKIndex="E0457F25-82EA-EA14-8AC1-BFE53AF369B2" name="stavka_cenovnik_fk">
+<sourceDDLFile>sema.ddl</sourceDDLFile>
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:02 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<importedID>4AF65E54-DA6F-F0F1-6B82-F550B5E841BE</importedID>
+<referredTableLongName>cenovnik</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>47FE8D63-E0BE-7E5E-BEC4-BA849C6A9365</referredTableID>
+<keyObject>E7077EF9-381E-CD3F-1D6B-F470EC88740E</keyObject>
+<referredKeyID>E7077EF9-381E-CD3F-1D6B-F470EC88740E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_cen</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

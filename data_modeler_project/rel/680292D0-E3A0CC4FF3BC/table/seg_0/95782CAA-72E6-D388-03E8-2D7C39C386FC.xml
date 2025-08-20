@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="95782CAA-72E6-D388-03E8-2D7C39C386FC" name="materijal">
+<sourceDDLFile>sema.ddl</sourceDDLFile>
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:01 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<importedID>B9FA02A8-CA5B-F8D7-892D-3FAEEE0DBC0A</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_mat" id="69EE6121-808A-02FB-843E-E03E53BD68C9">
+<sourceDDLFile>sema.ddl</sourceDDLFile>
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:01 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<importedID>09DCC7D8-40A4-1E45-E513-99A5F7FD3567</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E59C0DC1-3E4C-2F3D-96B6-4BBC4B07D531</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="metal" id="8BFA6F18-EF1B-C104-3546-C84607B81610">
+<sourceDDLFile>sema.ddl</sourceDDLFile>
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:01 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<importedID>153992F5-122F-4A75-F127-A164F5AC14AA</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4E5BDEC8-F7A9-39F8-087C-59735B4AC25B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="debljina" id="80EB1420-7DDA-6426-73D1-2541B1493DED">
+<sourceDDLFile>sema.ddl</sourceDDLFile>
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:01 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<importedID>1E2218CD-6CE7-426A-68E6-DEE0B76184CA</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B0A01E7E-E89A-2D8C-9193-AF07C40872FB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv_mat" id="36B5ACA8-C630-22CC-B408-2965BBF6B9A2">
+<sourceDDLFile>sema.ddl</sourceDDLFile>
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:01 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<importedID>5BCED8D3-05A2-63F1-D40F-AF07B755C3BD</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>72A71086-74F5-3286-E3A4-3DB878B2C087</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8E19D4A5-56CE-42AE-1034-345960FF9087" name="materijal_pk">
+<sourceDDLFile>sema.ddl</sourceDDLFile>
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:01 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<importedID>6AC7A60C-E320-32AE-C044-A5F4D20E68CD</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69EE6121-808A-02FB-843E-E03E53BD68C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

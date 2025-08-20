@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DC7F7396-E20C-D9EA-2A81-BD4FD0C3F0B4" name="instrument">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:13 UTC</createdTime>
+<generatorID>633BD1EF-0BE0-A31D-188D-0FD97FC138A5</generatorID>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<engineerTo>
+<item key="680292D0-5C6F-E54E-B83C-E3A0CC4FF3BC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id in" id="F0A4F6CC-5FD6-6A59-9781-6924F778279B">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:13 UTC</createdTime>
+<generatorID>E6C27412-74FA-62D3-C8D3-64B1E04A3211</generatorID>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<engineerTo>
+<item key="680292D0-5C6F-E54E-B83C-E3A0CC4FF3BC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E59C0DC1-3E4C-2F3D-96B6-4BBC4B07D531</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naziv in" id="A8711FBE-B59B-C3C1-7CBA-5E6C85EF3E2C">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:13 UTC</createdTime>
+<generatorID>1E8D17FE-3032-BCC9-0014-AABD6116B54B</generatorID>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<engineerTo>
+<item key="680292D0-5C6F-E54E-B83C-E3A0CC4FF3BC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>72A71086-74F5-3286-E3A4-3DB878B2C087</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="brz" id="229F0EC9-C6FA-D2EE-64F0-4DD2E3583CBC">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:13 UTC</createdTime>
+<generatorID>2F0E5763-B728-A625-B935-56CD132311F0</generatorID>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<engineerTo>
+<item key="680292D0-5C6F-E54E-B83C-E3A0CC4FF3BC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E59C0DC1-3E4C-2F3D-96B6-4BBC4B07D531</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F8A11D35-E91A-009C-C6DE-196A363E4B29" name="instrument pk">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:13 UTC</createdTime>
+<generatorID>5AE97C40-1446-C71A-FE42-94D90033C43E</generatorID>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<engineerTo>
+<item key="680292D0-5C6F-E54E-B83C-E3A0CC4FF3BC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F0A4F6CC-5FD6-6A59-9781-6924F778279B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

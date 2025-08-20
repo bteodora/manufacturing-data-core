@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pripada_instrument_fk" directorySegmentName="seg_0" id="F37A66E8-751D-8A17-1D60-BE9DBBFF895A">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:14 UTC</createdTime>
+<generatorID>52C7FEBD-3818-BA19-02D0-376FF25975A3</generatorID>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<engineerTo>
+<item key="680292D0-5C6F-E54E-B83C-E3A0CC4FF3BC" value="true"/>
+</engineerTo>
+<sourcePk>F8A11D35-E91A-009C-C6DE-196A363E4B29</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DC7F7396-E20C-D9EA-2A81-BD4FD0C3F0B4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8320D343-AAA9-143A-11A3-C0A1FAC78BDF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

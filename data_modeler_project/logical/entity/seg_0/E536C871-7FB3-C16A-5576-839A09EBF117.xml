@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E536C871-7FB3-C16A-5576-839A09EBF117" name="stavka">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:14 UTC</createdTime>
+<generatorID>26763007-8403-96A6-0727-856A9019F277</generatorID>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<engineerTo>
+<item key="680292D0-5C6F-E54E-B83C-E3A0CC4FF3BC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id st" id="AED2CE6C-B0C6-361D-BAE2-67B50B814146">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:14 UTC</createdTime>
+<generatorID>B97AF98F-B269-B854-28FF-399C913EEF04</generatorID>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<engineerTo>
+<item key="680292D0-5C6F-E54E-B83C-E3A0CC4FF3BC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E59C0DC1-3E4C-2F3D-96B6-4BBC4B07D531</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naziv st" id="65B260E0-745F-190B-6E78-F334CCDE0AEA">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:14 UTC</createdTime>
+<generatorID>AD588133-0675-E38D-FBB0-CC5EDAF66927</generatorID>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<engineerTo>
+<item key="680292D0-5C6F-E54E-B83C-E3A0CC4FF3BC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>72A71086-74F5-3286-E3A4-3DB878B2C087</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cena" id="FAD58101-DD15-4899-DF36-56B6833A3D71">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:14 UTC</createdTime>
+<generatorID>BBE1AA4D-0F64-C206-D918-50437ACF84F6</generatorID>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<engineerTo>
+<item key="680292D0-5C6F-E54E-B83C-E3A0CC4FF3BC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B0A01E7E-E89A-2D8C-9193-AF07C40872FB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kol" id="5EE365EA-F54B-637F-0C8E-B626A4B25F2B">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:14 UTC</createdTime>
+<generatorID>A37D1487-AC97-0B7A-03FB-7C8C6A2C011D</generatorID>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<engineerTo>
+<item key="680292D0-5C6F-E54E-B83C-E3A0CC4FF3BC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E59C0DC1-3E4C-2F3D-96B6-4BBC4B07D531</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="artikal id ar" id="EA48EE34-3904-DAC4-30F8-68466D4377C6">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:14 UTC</createdTime>
+<generatorID>6FCECF50-6013-10BF-96B1-86CAB6EE0B85</generatorID>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<engineerTo>
+<item key="680292D0-5C6F-E54E-B83C-E3A0CC4FF3BC" value="true"/>
+</engineerTo>
+<referedAttribute>054F7195-48B0-B04E-599B-7DCD67C41082</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E59C0DC1-3E4C-2F3D-96B6-4BBC4B07D531</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cenovnik id cen" id="31C00704-123D-3267-F161-E20642DA4BDD">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:14 UTC</createdTime>
+<generatorID>043A492F-DD55-C64F-FE45-257B33C6515F</generatorID>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<engineerTo>
+<item key="680292D0-5C6F-E54E-B83C-E3A0CC4FF3BC" value="true"/>
+</engineerTo>
+<referedAttribute>9FCB895F-D3D6-B951-3DCE-F27C772CC98E</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E59C0DC1-3E4C-2F3D-96B6-4BBC4B07D531</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="90B6C6E6-1599-946F-3B13-B102E75D3081" name="stavka pk">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:14 UTC</createdTime>
+<generatorID>F6C0DA39-7A8E-4CFA-1C2D-07AFAED8D884</generatorID>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<engineerTo>
+<item key="680292D0-5C6F-E54E-B83C-E3A0CC4FF3BC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AED2CE6C-B0C6-361D-BAE2-67B50B814146</attributeRef>
+<attributeRef>EA48EE34-3904-DAC4-30F8-68466D4377C6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

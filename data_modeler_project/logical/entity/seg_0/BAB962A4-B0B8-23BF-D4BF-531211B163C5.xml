@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BAB962A4-B0B8-23BF-D4BF-531211B163C5" name="koristi">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:13 UTC</createdTime>
+<generatorID>28315524-A250-F701-4337-71EFDF329212</generatorID>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<engineerTo>
+<item key="680292D0-5C6F-E54E-B83C-E3A0CC4FF3BC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="duz mat" id="BE3475E8-C58C-909A-8C69-61D5977DD232">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:13 UTC</createdTime>
+<generatorID>01A8F937-5271-C800-633C-96B5AC852D7A</generatorID>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<engineerTo>
+<item key="680292D0-5C6F-E54E-B83C-E3A0CC4FF3BC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B0A01E7E-E89A-2D8C-9193-AF07C40872FB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="materijal id mat" id="1F7D4879-48E1-3F4A-61A8-F28717A1A512">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:13 UTC</createdTime>
+<generatorID>86294794-E568-33DD-E174-63CC3A5ACB12</generatorID>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<engineerTo>
+<item key="680292D0-5C6F-E54E-B83C-E3A0CC4FF3BC" value="true"/>
+</engineerTo>
+<referedAttribute>6C06E0DE-F532-EF3F-4002-B598F5042D50</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E59C0DC1-3E4C-2F3D-96B6-4BBC4B07D531</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kotur id k" id="56B8F918-6639-398C-4087-E3C502A05417">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:13 UTC</createdTime>
+<generatorID>50ECF868-327A-DB9C-6550-3DF199206F89</generatorID>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<engineerTo>
+<item key="680292D0-5C6F-E54E-B83C-E3A0CC4FF3BC" value="true"/>
+</engineerTo>
+<referedAttribute>0FBD781D-C3A5-870D-5719-B5DD90B0E9AB</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E59C0DC1-3E4C-2F3D-96B6-4BBC4B07D531</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6D1E319E-38BD-C85C-4E24-96F20A9A933D" name="koristi pk">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:13 UTC</createdTime>
+<generatorID>75CCC30A-AF26-5B6C-55CA-771DE7F186C0</generatorID>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<engineerTo>
+<item key="680292D0-5C6F-E54E-B83C-E3A0CC4FF3BC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1F7D4879-48E1-3F4A-61A8-F28717A1A512</attributeRef>
+<attributeRef>56B8F918-6639-398C-4087-E3C502A05417</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

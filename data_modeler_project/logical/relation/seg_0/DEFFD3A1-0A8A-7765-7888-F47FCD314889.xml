@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="sadrzi_narudzbina_fk" directorySegmentName="seg_0" id="DEFFD3A1-0A8A-7765-7888-F47FCD314889">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:14 UTC</createdTime>
+<generatorID>B3F7FF05-FCE5-DB00-10B7-88137C4DAA17</generatorID>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<engineerTo>
+<item key="680292D0-5C6F-E54E-B83C-E3A0CC4FF3BC" value="true"/>
+</engineerTo>
+<sourcePk>7F04A318-88FF-06FD-7422-CCA2B61079A1</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5D3C6459-FB9F-DAE1-908D-2633D9AE0FFC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>56040D26-F0BC-D624-1945-90CD6FE3BCF8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

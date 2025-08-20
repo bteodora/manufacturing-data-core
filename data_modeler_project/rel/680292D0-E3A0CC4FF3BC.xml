@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="680292D0-5C6F-E54E-B83C-E3A0CC4FF3BC" mainViewID="5D924357-FD73-2219-E7CC-D88B7AA43656">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 11:58:29 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>sema.ddl</fileName>
+<pathName>C:\Teo\7. semestar\BP2</pathName>
+<dbType>9</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

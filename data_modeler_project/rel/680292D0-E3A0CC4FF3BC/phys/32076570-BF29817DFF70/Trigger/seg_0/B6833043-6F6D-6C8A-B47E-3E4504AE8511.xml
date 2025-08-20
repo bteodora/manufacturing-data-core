@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="arc_fkarc_2_udruzenje" directorySegmentName="seg_0" id="B6833043-6F6D-6C8A-B47E-3E4504AE8511">
+<sourceDDLFile>sema.ddl</sourceDDLFile>
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:15:36 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<actions>INSERT, UPDATE</actions>
+<body><![CDATA[DECLARE
+    d VARCHAR2(20);
+BEGIN
+    SELECT
+        a.tip
+    INTO d
+    FROM
+        kupac a
+    WHERE
+        a.id_kup = :new.id_kup;
+
+    IF ( d IS NULL OR d <> 'Udruzenje' ) THEN
+        raise_application_error(-20223, 'FK Udruzenje_Kupac_FK in Table Udruzenje violates Arc constraint on Table Kupac - discriminator column Tip doesn''t have value ''Udruzenje'''
+        );
+    END IF;
+
+EXCEPTION
+    WHEN no_data_found THEN
+        NULL;
+    WHEN OTHERS THEN
+        RAISE;
+END;]]></body>
+<triggerTime>BEFORE</triggerTime>
+<columns>21126B17-C934-3682-D369-BB137211D418</columns>
+<table>7F25BE23-81F3-DF4A-6179-D847750C216E</table>
+</TriggerOraclev10g>

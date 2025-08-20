@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="instrument" directorySegmentName="seg_0" id="633BD1EF-0BE0-A31D-188D-0FD97FC138A5">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:01 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="naziv_in" id="1E8D17FE-3032-BCC9-0014-AABD6116B54B">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:01 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="brz" id="2F0E5763-B728-A625-B935-56CD132311F0">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:01 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_in" id="E6C27412-74FA-62D3-C8D3-64B1E04A3211">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:01 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="instrument_pk" id="5AE97C40-1446-C71A-FE42-94D90033C43E">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:01 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

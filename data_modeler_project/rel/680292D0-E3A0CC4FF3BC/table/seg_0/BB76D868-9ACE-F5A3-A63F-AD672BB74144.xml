@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BB76D868-9ACE-F5A3-A63F-AD672BB74144" name="obuhvata">
+<sourceDDLFile>sema.ddl</sourceDDLFile>
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:01 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<importedID>D3D6FB5A-3826-0D1B-6B0F-8CEF8E341B0F</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nalog_za_izradu_id_nal" id="32CB213E-00D9-BF71-C6F7-A4812134589C">
+<sourceDDLFile>sema.ddl</sourceDDLFile>
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:01 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<importedID>E34F9677-C22C-8633-FC21-9272E0C4B944</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E59C0DC1-3E4C-2F3D-96B6-4BBC4B07D531</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="20A266E5-9724-84D4-7875-25E5CF43C89F" referredColumn="B0C93C68-997D-2A89-F010-ADFF37BEDE82"/>
+</associations>
+</Column>
+<Column name="je_izradjen_zica_id_z" id="3F041BFE-085C-EA74-64A2-9982E643A899">
+<sourceDDLFile>sema.ddl</sourceDDLFile>
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:01 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<importedID>C2DCAA85-03CF-4FD3-C704-73DC0C59D65E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E59C0DC1-3E4C-2F3D-96B6-4BBC4B07D531</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3285A988-6F2F-FEEA-3D12-791AF0A07CAA" referredColumn="D0121D5F-D225-4D48-B896-4E04621C539D"/>
+</associations>
+</Column>
+<Column name="je_izradjen_materijal_id_mat" id="7309F3A9-39F4-BB7B-6EA6-2620BD0860D2">
+<sourceDDLFile>sema.ddl</sourceDDLFile>
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:01 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<importedID>22B805E4-C55B-7BFB-922E-4E27884AC6FC</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E59C0DC1-3E4C-2F3D-96B6-4BBC4B07D531</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3285A988-6F2F-FEEA-3D12-791AF0A07CAA" referredColumn="850607A3-1AFE-E267-1DCA-B5F4C0314341"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A6347A88-95C0-D910-DD0F-B75EF6F6FD49" name="obuhvata_pk">
+<sourceDDLFile>sema.ddl</sourceDDLFile>
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:01 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<importedID>D211E94D-9F19-166C-C398-0BCB493DB2A6</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32CB213E-00D9-BF71-C6F7-A4812134589C"/>
+<colUsage columnID="3F041BFE-085C-EA74-64A2-9982E643A899"/>
+<colUsage columnID="7309F3A9-39F4-BB7B-6EA6-2620BD0860D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7FECA4C5-E0A6-518E-C949-C36BD8799AFD" name="obuhvata_je_izradjen_fk">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:02 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F041BFE-085C-EA74-64A2-9982E643A899"/>
+<colUsage columnID="7309F3A9-39F4-BB7B-6EA6-2620BD0860D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0AE07B91-EBAD-E899-E9A4-80B2DE95DF45" name="obuhvata_nalog_za_izradu_fk">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:02 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32CB213E-00D9-BF71-C6F7-A4812134589C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

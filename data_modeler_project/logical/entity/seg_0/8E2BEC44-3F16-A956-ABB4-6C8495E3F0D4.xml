@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8E2BEC44-3F16-A956-ABB4-6C8495E3F0D4" name="fizicko lice">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:13 UTC</createdTime>
+<generatorID>F6280E73-BC14-84FD-B621-A53313D144EE</generatorID>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<engineerTo>
+<item key="680292D0-5C6F-E54E-B83C-E3A0CC4FF3BC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id kup" id="B7413803-6F57-D8E1-820B-7FE56125AECB">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:13 UTC</createdTime>
+<generatorID>720B704E-5774-381A-E163-9DEE2E039A6B</generatorID>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<engineerTo>
+<item key="680292D0-5C6F-E54E-B83C-E3A0CC4FF3BC" value="true"/>
+</engineerTo>
+<referedAttribute>8A7FA3D6-14B9-2241-0C94-53EFCFDF08C1</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E59C0DC1-3E4C-2F3D-96B6-4BBC4B07D531</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ime" id="C91EBF59-4600-BB3D-7ABB-417089EE4E0A">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:13 UTC</createdTime>
+<generatorID>BC43DE5C-F8D1-94AD-F2EB-8270B5CA7552</generatorID>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<engineerTo>
+<item key="680292D0-5C6F-E54E-B83C-E3A0CC4FF3BC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>72A71086-74F5-3286-E3A4-3DB878B2C087</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prezime" id="35707D37-5BCF-2F52-B532-CB9FB4C1B2EB">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:13 UTC</createdTime>
+<generatorID>0F916D36-9FBE-1B13-7259-5B804247E9D5</generatorID>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<engineerTo>
+<item key="680292D0-5C6F-E54E-B83C-E3A0CC4FF3BC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>72A71086-74F5-3286-E3A4-3DB878B2C087</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="54140B29-A43F-A0C5-8C79-88F35C43912D" name="fizicko lice pk">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:13 UTC</createdTime>
+<generatorID>D5E30E21-A7DC-0DE9-B8AB-B504EED2E8A2</generatorID>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<engineerTo>
+<item key="680292D0-5C6F-E54E-B83C-E3A0CC4FF3BC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B7413803-6F57-D8E1-820B-7FE56125AECB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

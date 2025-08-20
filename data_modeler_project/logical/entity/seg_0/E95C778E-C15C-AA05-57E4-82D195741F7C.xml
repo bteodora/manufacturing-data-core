@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E95C778E-C15C-AA05-57E4-82D195741F7C" name="dobavljac">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:13 UTC</createdTime>
+<generatorID>217D1E9C-9DF9-44BE-F9BF-6D971E369DFB</generatorID>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<engineerTo>
+<item key="680292D0-5C6F-E54E-B83C-E3A0CC4FF3BC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id dob" id="BF40B774-A1FD-1BA2-6069-CB7938C52570">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:13 UTC</createdTime>
+<generatorID>6594E408-7601-B987-DDAD-EBC778FB353C</generatorID>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<engineerTo>
+<item key="680292D0-5C6F-E54E-B83C-E3A0CC4FF3BC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E59C0DC1-3E4C-2F3D-96B6-4BBC4B07D531</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naziv dob" id="C084CAA8-BFE4-57F6-D1BF-457A227011A7">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:13 UTC</createdTime>
+<generatorID>7033DC43-E3D6-2E58-22D8-D4883DA7E4C7</generatorID>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<engineerTo>
+<item key="680292D0-5C6F-E54E-B83C-E3A0CC4FF3BC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>72A71086-74F5-3286-E3A4-3DB878B2C087</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="adr d" id="D60724A8-90F4-6C9F-06B0-BBFE9BB466D8">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:13 UTC</createdTime>
+<generatorID>8508C345-B7DE-B4A6-FE5D-660E62076682</generatorID>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<engineerTo>
+<item key="680292D0-5C6F-E54E-B83C-E3A0CC4FF3BC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>72A71086-74F5-3286-E3A4-3DB878B2C087</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kont d" id="DFC7B955-C3D3-29E5-AFB8-6CE2A8B07F64">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:13 UTC</createdTime>
+<generatorID>658DF1E2-3F08-4600-951A-E8981D813EC1</generatorID>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<engineerTo>
+<item key="680292D0-5C6F-E54E-B83C-E3A0CC4FF3BC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>72A71086-74F5-3286-E3A4-3DB878B2C087</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C56A2362-6F46-6043-CA72-D7027C2FC09D" name="dobavljac pk">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:13 UTC</createdTime>
+<generatorID>A6C0818B-49B7-2A13-31F2-329816F07D85</generatorID>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<engineerTo>
+<item key="680292D0-5C6F-E54E-B83C-E3A0CC4FF3BC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BF40B774-A1FD-1BA2-6069-CB7938C52570</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

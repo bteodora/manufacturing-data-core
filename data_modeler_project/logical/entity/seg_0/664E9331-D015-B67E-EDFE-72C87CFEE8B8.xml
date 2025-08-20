@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="664E9331-D015-B67E-EDFE-72C87CFEE8B8" name="kotur">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:13 UTC</createdTime>
+<generatorID>602C5F88-435D-CFF9-DB82-A7E8738B9FAE</generatorID>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<engineerTo>
+<item key="680292D0-5C6F-E54E-B83C-E3A0CC4FF3BC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id k" id="0FBD781D-C3A5-870D-5719-B5DD90B0E9AB">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:13 UTC</createdTime>
+<generatorID>B457D3DC-2123-51C4-3B49-F846FD19BE8E</generatorID>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<engineerTo>
+<item key="680292D0-5C6F-E54E-B83C-E3A0CC4FF3BC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E59C0DC1-3E4C-2F3D-96B6-4BBC4B07D531</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kap" id="890D06C4-CBE5-BF51-205B-2C82E662DB38">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:13 UTC</createdTime>
+<generatorID>19341B74-C7A5-E57B-8DE5-DCC98C38D0B1</generatorID>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<engineerTo>
+<item key="680292D0-5C6F-E54E-B83C-E3A0CC4FF3BC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B0A01E7E-E89A-2D8C-9193-AF07C40872FB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="87BE3FED-8376-3DA1-BC73-AF993F086D45" name="kotur pk">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:13 UTC</createdTime>
+<generatorID>A68271B6-E14B-9E6E-6AE0-BDB8BC399544</generatorID>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<engineerTo>
+<item key="680292D0-5C6F-E54E-B83C-E3A0CC4FF3BC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0FBD781D-C3A5-870D-5719-B5DD90B0E9AB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

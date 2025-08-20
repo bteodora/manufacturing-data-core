@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="52C7FEBD-3818-BA19-02D0-376FF25975A3" containerWithKeyObject="DF61C40D-5535-C02A-2867-3574E9C9E1AA" localFKIndex="15075DBF-70E8-768B-475D-366B04C2577F" name="pripada_instrument_fk">
+<sourceDDLFile>sema.ddl</sourceDDLFile>
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:02 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<importedID>E22EFA7A-33D1-AE57-7F48-7745141B363A</importedID>
+<referredTableLongName>instrument</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>633BD1EF-0BE0-A31D-188D-0FD97FC138A5</referredTableID>
+<keyObject>5AE97C40-1446-C71A-FE42-94D90033C43E</keyObject>
+<referredKeyID>5AE97C40-1446-C71A-FE42-94D90033C43E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_in</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

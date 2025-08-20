@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9D1B837E-6B38-43D9-ABE8-E9BA24E97E5A" containerWithKeyObject="392EF530-5F35-94EB-1BDE-0D02523B9A8E" localFKIndex="BA1D92E3-1259-05F7-216D-CA8178D99D5D" name="narudzbina_kupac_fk">
+<sourceDDLFile>sema.ddl</sourceDDLFile>
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:02 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<importedID>EF1A795F-78F7-F22F-A5EE-0F739DC36DD7</importedID>
+<referredTableLongName>kupac</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2832ABB8-9788-AFA5-A82A-897AB666ABE6</referredTableID>
+<keyObject>94B5FFB9-2FFA-2013-EE20-74B9CFCF3E38</keyObject>
+<referredKeyID>94B5FFB9-2FFA-2013-EE20-74B9CFCF3E38</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_kup</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

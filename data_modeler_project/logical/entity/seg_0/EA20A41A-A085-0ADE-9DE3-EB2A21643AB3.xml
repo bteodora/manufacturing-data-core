@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EA20A41A-A085-0ADE-9DE3-EB2A21643AB3" name="obuhvata">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:14 UTC</createdTime>
+<generatorID>BB76D868-9ACE-F5A3-A63F-AD672BB74144</generatorID>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<engineerTo>
+<item key="680292D0-5C6F-E54E-B83C-E3A0CC4FF3BC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nalog za izradu id nal" id="7F9E114A-B52C-C383-D2F8-58A782BBB9B1">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:14 UTC</createdTime>
+<generatorID>9F26D040-BE89-A386-5BB2-B390EB11EF1A</generatorID>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<engineerTo>
+<item key="680292D0-5C6F-E54E-B83C-E3A0CC4FF3BC" value="true"/>
+</engineerTo>
+<referedAttribute>340C3576-7078-7281-1AB5-CDDA92C5DB45</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E59C0DC1-3E4C-2F3D-96B6-4BBC4B07D531</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="je izradjen zica id z" id="9F23C1C0-5868-1E8C-5B15-5751AE1015BF">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:14 UTC</createdTime>
+<generatorID>2D1C36B3-ADFF-DECD-C383-CCC560E18638</generatorID>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<engineerTo>
+<item key="680292D0-5C6F-E54E-B83C-E3A0CC4FF3BC" value="true"/>
+</engineerTo>
+<referedAttribute>CE14CA8A-7CE7-C174-0B09-7BA4A6323A61</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E59C0DC1-3E4C-2F3D-96B6-4BBC4B07D531</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="je izradjen materijal id mat" id="0508FC1C-36B0-5060-CADC-7757F96DAE51">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:14 UTC</createdTime>
+<generatorID>2D1C36B3-ADFF-DECD-C383-CCC560E18638</generatorID>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<engineerTo>
+<item key="680292D0-5C6F-E54E-B83C-E3A0CC4FF3BC" value="true"/>
+</engineerTo>
+<referedAttribute>5D8AEDA7-AAEF-6559-5565-047D760E879D</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E59C0DC1-3E4C-2F3D-96B6-4BBC4B07D531</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="20834AD4-576C-4515-DF31-FCE4744DFEE1" name="obuhvata pk">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:14 UTC</createdTime>
+<generatorID>A6347A88-95C0-D910-DD0F-B75EF6F6FD49</generatorID>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<engineerTo>
+<item key="680292D0-5C6F-E54E-B83C-E3A0CC4FF3BC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7F9E114A-B52C-C383-D2F8-58A782BBB9B1</attributeRef>
+<attributeRef>9F23C1C0-5868-1E8C-5B15-5751AE1015BF</attributeRef>
+<attributeRef>0508FC1C-36B0-5060-CADC-7757F96DAE51</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

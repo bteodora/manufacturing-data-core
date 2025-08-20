@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="54FBF1B7-DAB4-06A3-4CAF-55C37E48F7B4" name="sadrzi">
+<sourceDDLFile>sema.ddl</sourceDDLFile>
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:01 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<importedID>E96FB23A-BB49-530D-1EED-7EE3AD1CAC25</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="narudzbina_id_nar" id="B6DC41BC-321C-E4DE-44D7-225F53348E06">
+<sourceDDLFile>sema.ddl</sourceDDLFile>
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:02 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<importedID>C628FBD8-F8F6-FEAC-99C2-6C33C0891933</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E59C0DC1-3E4C-2F3D-96B6-4BBC4B07D531</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B3F7FF05-FCE5-DB00-10B7-88137C4DAA17" referredColumn="BF824C07-9604-7434-7DDB-7A3131CB7BB9"/>
+</associations>
+</Column>
+<Column name="artikal_id_ar" id="F77EDB34-4B6C-B6B3-C40C-A5B372DD59AA">
+<sourceDDLFile>sema.ddl</sourceDDLFile>
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:02 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<importedID>1EB7F948-2779-5175-DD04-CF22BCB0E607</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E59C0DC1-3E4C-2F3D-96B6-4BBC4B07D531</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="15C1CC4D-D68F-E55D-4A42-1582F45B7EA3" referredColumn="B807BE6A-D967-BFE0-B872-0CE39905B2E1"/>
+</associations>
+</Column>
+<Column name="nalog_za_izradu_id_nal" id="4B196C2E-CC41-A897-043D-4F92947375C0">
+<sourceDDLFile>sema.ddl</sourceDDLFile>
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:02 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<importedID>932900EF-3A21-5939-8C1F-BB6AC4C178E5</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E59C0DC1-3E4C-2F3D-96B6-4BBC4B07D531</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F4CD7287-7E2F-5BC8-E865-79C4551DDC8A" referredColumn="B0C93C68-997D-2A89-F010-ADFF37BEDE82"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B11CA04B-ABB9-1C75-7A9D-B8D8937EBBFD" name="sadrzi_pk">
+<sourceDDLFile>sema.ddl</sourceDDLFile>
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:02 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<importedID>4389112C-2CFF-F9F5-8735-D784C07225D6</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6DC41BC-321C-E4DE-44D7-225F53348E06"/>
+<colUsage columnID="F77EDB34-4B6C-B6B3-C40C-A5B372DD59AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9892A2DA-9ED7-858D-B786-CF4205895889" name="sadrzi_artikal_fk">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:02 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F77EDB34-4B6C-B6B3-C40C-A5B372DD59AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D44D7F74-54C9-E7F8-BF86-B78F3135B1F3" name="sadrzi_nalog_za_izradu_fk">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:02 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B196C2E-CC41-A897-043D-4F92947375C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="24E514E7-8363-AB9B-487A-FEFA706C4ED9" name="sadrzi_narudzbina_fk">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:02 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6DC41BC-321C-E4DE-44D7-225F53348E06"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="kompanija_kupac_fk" directorySegmentName="seg_0" id="2E33DAE0-5E96-0559-4306-2F81C1E490D2">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:14 UTC</createdTime>
+<generatorID>A0EDDA88-EC8C-3D5D-8EE0-3030441C7D39</generatorID>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<engineerTo>
+<item key="680292D0-5C6F-E54E-B83C-E3A0CC4FF3BC" value="true"/>
+</engineerTo>
+<sourcePk>3F5AA601-1B55-2B39-5758-C7873E1C31A1</sourcePk>
+<dominantRole>00C5AA25-F9BC-C9DB-63B3-25660323746C</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>00C5AA25-F9BC-C9DB-63B3-25660323746C</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>9B2B607E-7B29-166B-86B6-93336B8102B6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

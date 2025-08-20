@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2F8B29FB-3A8C-725C-C9FD-3B010A7AD866" containerWithKeyObject="9C09AD2B-2EBF-2D85-5802-F8FB177207F1" localFKIndex="A0BBAF5E-194A-EA83-3A7E-FB9D9A932EF9" name="se_sastoji_zica_fk">
+<sourceDDLFile>sema.ddl</sourceDDLFile>
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:02 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<importedID>62FC762C-5225-0B59-9D27-B7826866B40A</importedID>
+<referredTableLongName>zica</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AE49F310-208F-5351-4B3F-1AE12D12C579</referredTableID>
+<keyObject>B1AFB01E-3D1F-EBE3-09E2-178AFBC8A2F0</keyObject>
+<referredKeyID>B1AFB01E-3D1F-EBE3-09E2-178AFBC8A2F0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_z</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

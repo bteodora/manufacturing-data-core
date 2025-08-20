@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E0FC4D32-C4FD-354D-9F4D-B299C406FBBB" containerWithKeyObject="392EF530-5F35-94EB-1BDE-0D02523B9A8E" localFKIndex="8094DF89-9829-1F6F-ABE1-0855F72BC699" name="narudzbina_narudzbina_fk">
+<sourceDDLFile>sema.ddl</sourceDDLFile>
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:02 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<importedID>172F8F2B-09E1-3715-6AA7-6AA59FF09488</importedID>
+<referredTableLongName>narudzbina</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>392EF530-5F35-94EB-1BDE-0D02523B9A8E</referredTableID>
+<keyObject>6684CA2E-2DFF-5C08-5550-AB33589EB155</keyObject>
+<referredKeyID>6684CA2E-2DFF-5C08-5550-AB33589EB155</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_nar</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

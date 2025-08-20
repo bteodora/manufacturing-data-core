@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="je_izradjen_zica_fk" directorySegmentName="seg_0" id="A74EA6BA-C514-35FA-5992-6732907D0244">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:14 UTC</createdTime>
+<generatorID>A2C6677A-2F80-0CD5-C705-99F93559F8E8</generatorID>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<engineerTo>
+<item key="680292D0-5C6F-E54E-B83C-E3A0CC4FF3BC" value="true"/>
+</engineerTo>
+<sourcePk>8679524A-6FE2-AB20-B5FE-88090A02A539</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B16C411A-7A5A-D162-D124-46C720B41A44</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6CE0B51B-A5D8-DC12-AF11-BC87FAFA9D14</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

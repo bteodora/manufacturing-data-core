@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="obuhvata_nalog_za_izradu_fk" directorySegmentName="seg_0" id="9F26D040-BE89-A386-5BB2-B390EB11EF1A">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:14 UTC</createdTime>
+<generatorID>20A266E5-9724-84D4-7875-25E5CF43C89F</generatorID>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<engineerTo>
+<item key="680292D0-5C6F-E54E-B83C-E3A0CC4FF3BC" value="true"/>
+</engineerTo>
+<sourcePk>229C2B2C-9896-DE31-1E71-A0543100502C</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A56C4B95-4609-429D-708B-DE91F6759ACF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EA20A41A-A085-0ADE-9DE3-EB2A21643AB3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

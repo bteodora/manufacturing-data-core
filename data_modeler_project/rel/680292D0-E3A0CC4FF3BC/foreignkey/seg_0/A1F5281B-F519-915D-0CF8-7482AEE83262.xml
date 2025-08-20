@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A1F5281B-F519-915D-0CF8-7482AEE83262" containerWithKeyObject="26763007-8403-96A6-0727-856A9019F277" localFKIndex="0F26E178-86DB-B7CB-5960-E81EBAE9580F" name="stavka_artikal_fk">
+<sourceDDLFile>sema.ddl</sourceDDLFile>
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:02 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<importedID>51CB5723-E93F-E9B5-4D8F-4FF9439909E4</importedID>
+<referredTableLongName>artikal</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>492DFC9E-D65A-B85E-1372-65B424EA988C</referredTableID>
+<keyObject>BDFFD507-AC2D-A237-8E11-9D909FD76422</keyObject>
+<referredKeyID>BDFFD507-AC2D-A237-8E11-9D909FD76422</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_ar</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DF61C40D-5535-C02A-2867-3574E9C9E1AA" name="pripada">
+<sourceDDLFile>sema.ddl</sourceDDLFile>
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:01 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<importedID>8DBA7578-1CF9-2713-C30B-80A93DE27A93</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="zica_id_z" id="94BE5F41-47F7-3159-522D-747AEBB490A1">
+<sourceDDLFile>sema.ddl</sourceDDLFile>
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:01 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<importedID>1507518D-DC5A-AC1F-7A9C-13BB08CFB5F0</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E59C0DC1-3E4C-2F3D-96B6-4BBC4B07D531</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="20E971F8-05E5-19D3-A161-43781D79AA95" referredColumn="0865F771-19B3-EDB0-E601-141F79DBE422"/>
+</associations>
+</Column>
+<Column name="instrument_id_in" id="5CB3235E-2A9D-F45F-C51E-64612679C1B8">
+<sourceDDLFile>sema.ddl</sourceDDLFile>
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:01 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<importedID>913C6C59-3484-E95A-39EB-664DA872433C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E59C0DC1-3E4C-2F3D-96B6-4BBC4B07D531</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="52C7FEBD-3818-BA19-02D0-376FF25975A3" referredColumn="E6C27412-74FA-62D3-C8D3-64B1E04A3211"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F32BBCD8-63E8-52AA-3321-30390E4592E6" name="pripada_pk">
+<sourceDDLFile>sema.ddl</sourceDDLFile>
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:01 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<importedID>D7B3CB7D-0AA7-1A7B-59AF-6534C865AD7F</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94BE5F41-47F7-3159-522D-747AEBB490A1"/>
+<colUsage columnID="5CB3235E-2A9D-F45F-C51E-64612679C1B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="15075DBF-70E8-768B-475D-366B04C2577F" name="pripada_instrument_fk">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:02 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5CB3235E-2A9D-F45F-C51E-64612679C1B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C5AE90E9-43CD-F6FA-7FF3-C78B27E8B109" name="pripada_zica_fk">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:02 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94BE5F41-47F7-3159-522D-747AEBB490A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

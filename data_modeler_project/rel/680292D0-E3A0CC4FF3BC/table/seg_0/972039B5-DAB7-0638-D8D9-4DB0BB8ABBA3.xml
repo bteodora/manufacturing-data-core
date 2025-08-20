@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="972039B5-DAB7-0638-D8D9-4DB0BB8ABBA3" name="dobavlja">
+<sourceDDLFile>sema.ddl</sourceDDLFile>
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:01 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<importedID>B2E23D2A-6C5D-A6F6-6574-ABB1E54A1A93</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="koristi_id_mat" id="391C2FF4-E683-5F7F-ED54-5F41C2751C55">
+<sourceDDLFile>sema.ddl</sourceDDLFile>
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:01 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<importedID>268B83F9-AAA5-BD35-5112-D3810188416C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E59C0DC1-3E4C-2F3D-96B6-4BBC4B07D531</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1FE23A29-17A4-9FF5-A79F-62D9980140A3" referredColumn="2E9C5285-F861-1B52-376E-56D5DDEB9D3C"/>
+</associations>
+</Column>
+<Column name="koristi_id_k" id="8D63BF6B-4BC9-B895-40CD-0815CC4659E7">
+<sourceDDLFile>sema.ddl</sourceDDLFile>
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:01 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<importedID>767E1E5C-7498-C65F-5E0B-8555F394A2CF</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E59C0DC1-3E4C-2F3D-96B6-4BBC4B07D531</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1FE23A29-17A4-9FF5-A79F-62D9980140A3" referredColumn="E36A685E-8B6B-8F4E-203C-F850B2030B6F"/>
+</associations>
+</Column>
+<Column name="dobavljac_id_dob" id="D8087E6A-BDDC-C403-FC9F-47C476686389">
+<sourceDDLFile>sema.ddl</sourceDDLFile>
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:01 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<importedID>A4190B90-213F-B510-3548-81CE6ABB5FF6</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E59C0DC1-3E4C-2F3D-96B6-4BBC4B07D531</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="12FF4326-DD7F-40AA-4DBF-BAEE9A9E70EF" referredColumn="6594E408-7601-B987-DDAD-EBC778FB353C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9C4D633B-B922-494E-908F-A62E1E2F35CB" name="dobavlja_pk">
+<sourceDDLFile>sema.ddl</sourceDDLFile>
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:01 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<importedID>A33AEA47-3C1F-E287-56F8-CEE736D99772</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="391C2FF4-E683-5F7F-ED54-5F41C2751C55"/>
+<colUsage columnID="8D63BF6B-4BC9-B895-40CD-0815CC4659E7"/>
+<colUsage columnID="D8087E6A-BDDC-C403-FC9F-47C476686389"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E299B997-9FB6-85F8-3601-EEABE472B417" name="dobavlja_dobavljac_fk">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:02 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8087E6A-BDDC-C403-FC9F-47C476686389"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1833C4B5-9F9D-405F-2B33-E94FE0696AFF" name="dobavlja_koristi_fk">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:02 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="391C2FF4-E683-5F7F-ED54-5F41C2751C55"/>
+<colUsage columnID="8D63BF6B-4BC9-B895-40CD-0815CC4659E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

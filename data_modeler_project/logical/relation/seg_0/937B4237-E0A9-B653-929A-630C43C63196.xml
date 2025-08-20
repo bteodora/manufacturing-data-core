@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="je_izradjen_materijal_fk" directorySegmentName="seg_0" id="937B4237-E0A9-B653-929A-630C43C63196">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:14 UTC</createdTime>
+<generatorID>08FFC4B8-97EC-1ECE-5D8F-F90CAB228D5C</generatorID>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<engineerTo>
+<item key="680292D0-5C6F-E54E-B83C-E3A0CC4FF3BC" value="true"/>
+</engineerTo>
+<sourcePk>B295B86A-1378-3D25-2D8A-4ED2EA5E01A4</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D6C87D80-1A41-A518-3B7D-4931C8CDAE9B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6CE0B51B-A5D8-DC12-AF11-BC87FAFA9D14</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="udruzenje_kupac_fk" directorySegmentName="seg_0" id="78C00F14-E7F5-9C79-40AB-EE0D95C0CF36">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:14 UTC</createdTime>
+<generatorID>812C52CB-B010-9FDA-809C-FBF34D27622D</generatorID>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<engineerTo>
+<item key="680292D0-5C6F-E54E-B83C-E3A0CC4FF3BC" value="true"/>
+</engineerTo>
+<sourcePk>3F5AA601-1B55-2B39-5758-C7873E1C31A1</sourcePk>
+<dominantRole>00C5AA25-F9BC-C9DB-63B3-25660323746C</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>00C5AA25-F9BC-C9DB-63B3-25660323746C</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>A0D22BFC-E2E1-58D8-30E4-6A8ABD5BFA36</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

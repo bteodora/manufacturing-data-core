@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="koristi_materijal_fk" directorySegmentName="seg_0" id="86294794-E568-33DD-E174-63CC3A5ACB12">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:14 UTC</createdTime>
+<generatorID>6A151239-2A99-E668-7659-B5DE749A0E6A</generatorID>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<engineerTo>
+<item key="680292D0-5C6F-E54E-B83C-E3A0CC4FF3BC" value="true"/>
+</engineerTo>
+<sourcePk>B295B86A-1378-3D25-2D8A-4ED2EA5E01A4</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D6C87D80-1A41-A518-3B7D-4931C8CDAE9B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BAB962A4-B0B8-23BF-D4BF-531211B163C5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

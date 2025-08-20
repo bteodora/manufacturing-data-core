@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="dobavlja_dobavljac_fk" directorySegmentName="seg_0" id="3692D18B-7223-74A8-DC3D-A09B5C7EB344">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:14 UTC</createdTime>
+<generatorID>12FF4326-DD7F-40AA-4DBF-BAEE9A9E70EF</generatorID>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<engineerTo>
+<item key="680292D0-5C6F-E54E-B83C-E3A0CC4FF3BC" value="true"/>
+</engineerTo>
+<sourcePk>C56A2362-6F46-6043-CA72-D7027C2FC09D</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E95C778E-C15C-AA05-57E4-82D195741F7C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>62A99A10-D33A-E97E-F64B-66D793E96C1A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

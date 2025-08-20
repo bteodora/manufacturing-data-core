@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="28315524-A250-F701-4337-71EFDF329212" name="koristi">
+<sourceDDLFile>sema.ddl</sourceDDLFile>
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:01 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<importedID>947CDAF0-C1F4-DE24-408D-F6D2D8287357</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="duz_mat" id="01A8F937-5271-C800-633C-96B5AC852D7A">
+<sourceDDLFile>sema.ddl</sourceDDLFile>
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:01 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<importedID>06ED890B-F087-0E86-538C-C04C57437102</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B0A01E7E-E89A-2D8C-9193-AF07C40872FB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="materijal_id_mat" id="2E9C5285-F861-1B52-376E-56D5DDEB9D3C">
+<sourceDDLFile>sema.ddl</sourceDDLFile>
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:01 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<importedID>FBDEC38B-71FF-E2D5-73AA-B6B9F1274050</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E59C0DC1-3E4C-2F3D-96B6-4BBC4B07D531</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6A151239-2A99-E668-7659-B5DE749A0E6A" referredColumn="69EE6121-808A-02FB-843E-E03E53BD68C9"/>
+</associations>
+</Column>
+<Column name="kotur_id_k" id="E36A685E-8B6B-8F4E-203C-F850B2030B6F">
+<sourceDDLFile>sema.ddl</sourceDDLFile>
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:01 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<importedID>FF9A45F9-6F67-02A3-ED6C-F324FF7111CD</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E59C0DC1-3E4C-2F3D-96B6-4BBC4B07D531</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9B5724C-9A9B-FE9F-1893-CB91119F979F" referredColumn="B457D3DC-2123-51C4-3B49-F846FD19BE8E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="75CCC30A-AF26-5B6C-55CA-771DE7F186C0" name="koristi_pk">
+<sourceDDLFile>sema.ddl</sourceDDLFile>
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:01 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<importedID>98D73A22-2CB8-28C8-FA39-EFE78AF3164C</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E9C5285-F861-1B52-376E-56D5DDEB9D3C"/>
+<colUsage columnID="E36A685E-8B6B-8F4E-203C-F850B2030B6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2E79D7B3-0A7A-FFBD-3B49-2D4580FA7B6F" name="koristi_kotur_fk">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:02 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E36A685E-8B6B-8F4E-203C-F850B2030B6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="84B640AA-5EA9-9B4A-6FED-54C1BB642191" name="koristi_materijal_fk">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:02 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E9C5285-F861-1B52-376E-56D5DDEB9D3C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

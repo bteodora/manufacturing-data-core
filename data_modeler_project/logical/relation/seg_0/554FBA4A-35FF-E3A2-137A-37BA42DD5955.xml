@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pripada_zica_fk" directorySegmentName="seg_0" id="554FBA4A-35FF-E3A2-137A-37BA42DD5955">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:14 UTC</createdTime>
+<generatorID>20E971F8-05E5-19D3-A161-43781D79AA95</generatorID>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<engineerTo>
+<item key="680292D0-5C6F-E54E-B83C-E3A0CC4FF3BC" value="true"/>
+</engineerTo>
+<sourcePk>8679524A-6FE2-AB20-B5FE-88090A02A539</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B16C411A-7A5A-D162-D124-46C720B41A44</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8320D343-AAA9-143A-11A3-C0A1FAC78BDF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

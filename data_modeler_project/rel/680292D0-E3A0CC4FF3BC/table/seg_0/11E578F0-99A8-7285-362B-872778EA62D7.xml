@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="11E578F0-99A8-7285-362B-872778EA62D7" name="je_izradjen">
+<sourceDDLFile>sema.ddl</sourceDDLFile>
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:01 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<importedID>5C81A319-DAEF-228A-1985-91F5D6E2FF95</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="zica_id_z" id="D0121D5F-D225-4D48-B896-4E04621C539D">
+<sourceDDLFile>sema.ddl</sourceDDLFile>
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:01 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<importedID>B0D63991-8231-6796-C896-6FE02BF4975F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E59C0DC1-3E4C-2F3D-96B6-4BBC4B07D531</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A2C6677A-2F80-0CD5-C705-99F93559F8E8" referredColumn="0865F771-19B3-EDB0-E601-141F79DBE422"/>
+</associations>
+</Column>
+<Column name="materijal_id_mat" id="850607A3-1AFE-E267-1DCA-B5F4C0314341">
+<sourceDDLFile>sema.ddl</sourceDDLFile>
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:01 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<importedID>FB220F6A-54A8-3ACA-9898-5888FB1FAFC9</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E59C0DC1-3E4C-2F3D-96B6-4BBC4B07D531</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="08FFC4B8-97EC-1ECE-5D8F-F90CAB228D5C" referredColumn="69EE6121-808A-02FB-843E-E03E53BD68C9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0F9A8F43-A4E7-3EE1-263E-AE7A4B612352" name="je_izradjen_pk">
+<sourceDDLFile>sema.ddl</sourceDDLFile>
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:01 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<importedID>E0196404-347C-5B6D-2A39-732314441034</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0121D5F-D225-4D48-B896-4E04621C539D"/>
+<colUsage columnID="850607A3-1AFE-E267-1DCA-B5F4C0314341"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A0FE8AE-425C-E5CF-CA28-DB588A71003A" name="je_izradjen_materijal_fk">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:02 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="850607A3-1AFE-E267-1DCA-B5F4C0314341"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DF6B6212-4AC3-EF97-97FE-8FB207F5B6E2" name="je_izradjen_zica_fk">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:02 UTC</createdTime>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0121D5F-D225-4D48-B896-4E04621C539D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

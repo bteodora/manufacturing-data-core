@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fizicko_lice_kupac_fk" directorySegmentName="seg_0" id="720B704E-5774-381A-E163-9DEE2E039A6B">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:14 UTC</createdTime>
+<generatorID>A17A0014-298E-AB4D-B095-487E7C299153</generatorID>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<engineerTo>
+<item key="680292D0-5C6F-E54E-B83C-E3A0CC4FF3BC" value="true"/>
+</engineerTo>
+<sourcePk>3F5AA601-1B55-2B39-5758-C7873E1C31A1</sourcePk>
+<dominantRole>00C5AA25-F9BC-C9DB-63B3-25660323746C</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>00C5AA25-F9BC-C9DB-63B3-25660323746C</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>8E2BEC44-3F16-A956-ABB4-6C8495E3F0D4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

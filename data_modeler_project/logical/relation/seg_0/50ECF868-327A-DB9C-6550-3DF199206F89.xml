@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="koristi_kotur_fk" directorySegmentName="seg_0" id="50ECF868-327A-DB9C-6550-3DF199206F89">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:14 UTC</createdTime>
+<generatorID>A9B5724C-9A9B-FE9F-1893-CB91119F979F</generatorID>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<engineerTo>
+<item key="680292D0-5C6F-E54E-B83C-E3A0CC4FF3BC" value="true"/>
+</engineerTo>
+<sourcePk>87BE3FED-8376-3DA1-BC73-AF993F086D45</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>664E9331-D015-B67E-EDFE-72C87CFEE8B8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BAB962A4-B0B8-23BF-D4BF-531211B163C5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

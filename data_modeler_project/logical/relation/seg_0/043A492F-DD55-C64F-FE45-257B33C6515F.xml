@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="stavka_cenovnik_fk" directorySegmentName="seg_0" id="043A492F-DD55-C64F-FE45-257B33C6515F">
+<createdBy>Teo</createdBy>
+<createdTime>2025-07-31 12:16:14 UTC</createdTime>
+<generatorID>354F0088-D64E-5656-1F00-222006B84CB7</generatorID>
+<ownerDesignName>ProjekatKT3</ownerDesignName>
+<engineerTo>
+<item key="680292D0-5C6F-E54E-B83C-E3A0CC4FF3BC" value="true"/>
+</engineerTo>
+<sourcePk>2C06335B-D4DB-4335-FEF6-30D1C7C1B964</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5F6DDBDA-7BFF-A782-6511-094910B7E554</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E536C871-7FB3-C16A-5576-839A09EBF117</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
