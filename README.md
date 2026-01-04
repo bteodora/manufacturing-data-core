@@ -115,3 +115,75 @@ This repository serves as a complete artifact of the database engineering lifecy
 **Domain:** Manufacturing & Supply Chain
 
 This system was conceptualized to solve real-world inefficiencies in a family-owned manufacturing business, moving from pen-and-paper tracking to a digital, queryable database system.
+
+## 8. Simplified EER diagram
+
+```mermaid
+---
+config:
+  theme: redux-dark-color
+---
+erDiagram
+    KUPAC ||--|| FIZICKO_LICE : "is_a (subtype)"
+    KUPAC ||--|| KOMPANIJA : "is_a (subtype)"
+    KUPAC ||--|| UDRUZENJE : "is_a (subtype)"
+    KUPAC ||--|{ NARUDZBINA : places
+
+    NARUDZBINA ||--o{ NARUDZBINA : "contains_suborders (Recursive)"
+    NARUDZBINA ||--|{ SADRZI : contains_items
+    
+    CENOVNIK ||--|{ STAVKA : defines_prices
+    ARTIKAL ||--|{ STAVKA : priced_in
+    ARTIKAL ||--|{ SADRZI : listed_in
+    ARTIKAL ||--|{ SE_SASTOJI : composed_of
+    ZICA ||--|{ SE_SASTOJI : component_of
+    
+    ZICA ||--|{ PRIPADA : suitable_for
+    INSTRUMENT ||--|{ PRIPADA : uses_string
+
+    ZICA ||--|{ JE_IZRADJEN : made_of_material
+    MATERIJAL ||--|{ JE_IZRADJEN : used_in_wire
+
+    NALOG_ZA_IZRADU ||--|{ OBUHVATA : executes_production
+    JE_IZRADJEN ||--|{ OBUHVATA : specifies_recipe
+    SADRZI }|--|| NALOG_ZA_IZRADU : triggers_work_order
+    MATERIJAL ||--|{ KORISTI : defined_as
+    KOTUR ||--|{ KORISTI : instance_of
+    
+    KORISTI ||--|{ DOBAVLJA : supplied_via
+    DOBAVLJAC ||--|{ DOBAVLJA : supplies_spool
+    KUPAC {
+        int id_kup PK
+        string tip "Discriminator"
+        string adresa
+    }
+    NARUDZBINA {
+        int id_nar PK
+        int parent_id_nar FK
+        string status
+    }
+    ARTIKAL {
+        int id_ar PK
+        string naziv
+        string kategorija
+    }
+    NALOG_ZA_IZRADU {
+        int id_nal PK
+        date datum_kre
+        string status
+    }
+    MATERIJAL {
+        int id_mat PK
+        string metal
+        decimal debljina
+    }
+    KOTUR {
+        int id_k PK
+        decimal kapacitet
+    }
+    KORISTI {
+        int id_mat PK, FK
+        int id_k PK, FK
+        string opis "Material Instance"
+    }
+```
