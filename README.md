@@ -20,7 +20,7 @@
   </p>
 
   <p>
-    <a href="specification.docx"><strong>📄 Domain Specification »</strong></a>
+    <a href="specification.pdf"><strong>📄 Domain Specification »</strong></a>
     ·
     <a href="EER diagram.png"><strong>🗺 View EER Diagram »</strong></a>
     ·
